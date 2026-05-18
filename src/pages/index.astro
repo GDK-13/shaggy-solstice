@@ -23,4 +23,29 @@ import '../styles/globals.css';
     <Contact client:load />
   </main>
   <Footer client:load />
+</Layout>---
+import Layout from '../layouts/Layout.astro';
+
+// Importando os componentes React individuais que estão na sua pasta
+import Header from '../components/Header.tsx';
+import Hero from '../components/Hero.tsx';
+import About from '../components/About.tsx';
+import Projects from '../components/Projects.tsx';
+import Contact from '../components/Contact.tsx';
+import Footer from '../components/Footer.tsx';
+
+// Importando os seus estilos globais e temas do Tailwind/Figma.
+import '../styles/theme.css';
+import '../styles/globals.css';
+---
+
+<Layout title="NGO Website">
+  <Header client:load />
+  <main>
+    <Hero client:load />
+    <About client:load />
+    <Projects client:load />
+    <Contact client:load />
+  </main>
+  <Footer client:load />
 </Layout>
