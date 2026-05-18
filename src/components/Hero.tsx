@@ -1,5 +1,4 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-// Importe a imagem como se fosse código
 import heroImg from '../imports/bb2b3e_8c1e90cc3c3b469c8a00abc7dedade5f_mv2.jpg';
 
 export default function Hero() {
