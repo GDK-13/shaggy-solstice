@@ -1,7 +1,8 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import img1 from "../../imports/Sunrise_over_Bali_Jungle.jpg";
-import img2 from "../../imports/Lush_Green_Plants_Thriving_in_a_Greenhouse_Bathed_in_Sunlight_Showing_Vibrant_Foliage_and_Water_Droplets.jpg";
-import img3 from "../../imports/View_of_the_Nature_of_Moldova.jpg";
+
+const img1 = new URL("../imports/Sunrise_over_Bali_Jungle.jpg", import.meta.url).href;
+const img2 = new URL("../imports/Lush_Green_Plants_Thriving_in_a_Greenhouse_Bathed_in_Sunlight_Showing_Vibrant_Foliage_and_Water_Droplets.jpg", import.meta.url).href;
+const img3 = new URL("../imports/View_of_the_Nature_of_Moldova.jpg", import.meta.url).href;
 
 export default function Projects() {
   const projects = [
