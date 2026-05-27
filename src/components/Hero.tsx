@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import heroImg from '../imports/bb2b3e_8c1e90cc3c3b469c8a00abc7dedade5f_mv2.jpg';
+import heroImg from '../imports/bb2b3e_8c1e90cc3c3b469c8a00abc7dedade5f_mv2.jpg?url';
 
 export default function Hero() {
   return (
