@@ -1,9 +1,9 @@
 {
-  "order": 5,
   "title": "Apoio à organização de grupos produtivos de mulheres trabalhadoras rurais",
   "short_description": "Fomento ao protagonismo feminino na economia rural do Piauí por meio da capacitação e promoção comercial de grupos produtivos, alcançando 150 mulheres em 15 municípios.",
-  "description": "Apoiar grupos produtivos de mulheres através de formação, capacitação, estudo e pesquisa, promoção comercial e acesso a políticas públicas, com vistas a ampliar o protagonismo das mulheres na economia rural no Estado do Piauí. Abrangendo 15 municípios piauienses envolvendo diretamente 150 mulheres produtoras rurais.",
+  "description": "<div style=\"text-align: justify;\">\n\nApoiar grupos produtivos de mulheres através de formação, capacitação, estudo e pesquisa, promoção comercial e acesso a políticas públicas, com vistas a ampliar o protagonismo das mulheres na economia rural no Estado do Piauí. Abrangendo 15 municípios piauienses envolvendo diretamente 150 mulheres produtoras rurais.\n\n</div>",
   "image": "",
   "image_caption": "",
-  "gallery": []
+  "gallery": [],
+  "order": 5
 }
