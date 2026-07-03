@@ -1,9 +1,9 @@
 {
-  "order": 14,
   "title": "Centro de Recondicionamento de Computador – CRC Piauí",
   "short_description": "Iniciativa de inclusão digital focada no recondicionamento de computadores para distribuição em pontos de acesso e na oferta de cursos de tecnologia para pessoas em vulnerabilidade social.",
-  "description": "Promover a inclusão através da execução de desfazimento de equipamento de eletroeletrônico, recondicionamento e distribuição de computadores recondicionados ao Pontos de Inclusão Digital - PID e realização de cursos relacionados às Tecnologia de Informação e Comunicação - TIC para a população em situação de vulnerabilidade social, no âmbito do Programa Computadores para Inclusão. Abrangendo os municípios do Piauí.",
+  "description": "<div style=\"text-align: justify;\">\n\nPromover a inclusão através da execução de desfazimento de equipamento de eletroeletrônico, recondicionamento e distribuição de computadores recondicionados ao Pontos de Inclusão Digital - PID e realização de cursos relacionados às Tecnologia de Informação e Comunicação - TIC para a população em situação de vulnerabilidade social, no âmbito do Programa Computadores para Inclusão. Abrangendo os municípios do Piauí.\n\n</div>",
   "image": "",
   "image_caption": "",
-  "gallery": []
+  "gallery": [],
+  "order": 14
 }
