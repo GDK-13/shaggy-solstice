@@ -7,5 +7,36 @@
   </head>
   <body>
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <script>
+      // Componente customizado que adiciona alinhamento de texto
+      // (esquerda, direita, justificado) ao editor Markdown do Sveltia CMS.
+      // O Sveltia ainda não tem esse recurso nativo, então ele insere um
+      // bloco <div style="text-align: ..."> dentro do Markdown.
+      CMS.registerEditorComponent({
+        id: 'align',
+        label: 'Alinhar Texto',
+        icon: 'format_align_justify',
+        fields: [
+          {
+            name: 'alignment',
+            label: 'Alinhamento',
+            widget: 'select',
+            options: [
+              { label: 'Esquerda', value: 'left' },
+              { label: 'Direita', value: 'right' },
+              { label: 'Justificado', value: 'justify' },
+            ],
+            default: 'justify',
+          },
+          { name: 'text', label: 'Texto', widget: 'text' },
+        ],
+        pattern:
+          /<div style="text-align: (?<alignment>left|right|justify);">\s*(?<text>[\s\S]+?)\s*<\/div>/,
+        toBlock: ({ alignment = 'justify', text = '' }) =>
+          `<div style="text-align: ${alignment};">\n\n${text}\n\n</div>`,
+        toPreview: ({ alignment = 'justify', text = '' }) =>
+          `<div style="text-align: ${alignment};">${text}</div>`,
+      });
+    </script>
   </body>
 </html>

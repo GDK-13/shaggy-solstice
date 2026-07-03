@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useState } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const modules = import.meta.glob('../../content/projetos/*.json', { eager: true });
 
@@ -105,7 +106,7 @@ export default function ProjectDetails() {
         
         {/* TEXTO DO PROJETO */}
         <div className="text-lg text-muted-foreground leading-relaxed flex flex-col gap-4">
-          <ReactMarkdown>{projectData.description}</ReactMarkdown>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{projectData.description}</ReactMarkdown>
         </div>
 
         {/* GALERIA EM GRADE COMPLETA (FINAL DA PÁGINA) */}

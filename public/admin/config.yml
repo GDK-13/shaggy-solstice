@@ -18,7 +18,10 @@ collections:
     fields:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Resumo para o Card", name: "short_description", widget: "text", hint: "Texto curto e direto que vai aparecer na página inicial."}
-      - {label: "Descrição Completa", name: "description", widget: "markdown"}
+      - label: "Descrição Completa"
+        name: "description"
+        widget: "markdown"
+        editor_components: ["image", "code-block", "align"]
       - {label: "Imagem Principal (Capa)", name: "image", widget: "image", required: false}
       - {label: "Legenda da Capa", name: "image_caption", widget: "string", required: false}
       - label: "Galeria de Fotos Extras"
