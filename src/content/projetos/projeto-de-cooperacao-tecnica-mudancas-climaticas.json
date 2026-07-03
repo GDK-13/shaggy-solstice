@@ -1,9 +1,9 @@
 {
-  "order": 9,
   "title": "Projeto de Cooperação Técnica BRA/IICA/14/001 Mudanças Climáticas",
   "short_description": "Implementação de unidades de recuperação ambiental para combater a desertificação e reduzir a vulnerabilidade climática, beneficiando 30 famílias na zona rural de Santo Antônio de Lisboa.",
-  "description": "Implementar unidades de recuperação de áreas degradadas e redução da vulnerabilidade climática nas áreas suscetíveis à Desertificação (URAD's). Abrangendo 30 famílias da comunidade Sítio Salvador do município de Santo Antônio de Lisboa - PI.",
+  "description": "<div style=\"text-align: justify;\">\n\nImplementar unidades de recuperação de áreas degradadas e redução da vulnerabilidade climática nas áreas suscetíveis à Desertificação (URAD's). Abrangendo 30 famílias da comunidade Sítio Salvador do município de Santo Antônio de Lisboa - PI.\n\n</div>",
   "image": "",
   "image_caption": "",
-  "gallery": []
+  "gallery": [],
+  "order": 9
 }
